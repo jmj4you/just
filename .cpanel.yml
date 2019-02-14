@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/git.aoxozo.com/
+    - export DEPLOYPATH=/home/joomosco/git.aoxozo.com/
     - /bin/cp -R images $DEPLOYPATH/images
