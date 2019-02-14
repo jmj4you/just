@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=git.aoxozo.com/
+    - /bin/cp -R images $DEPLOYPATH/images
